@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open Munora website",
+      "type": "process",
+      "command": "xdg-open",
+      "args": ["index.html"],
+      "windows": { "command": "cmd", "args": ["/c", "start", "", "index.html"] },
+      "osx": { "command": "open", "args": ["index.html"] },
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "never" },
+      "problemMatcher": []
+    }
+  ]
+}

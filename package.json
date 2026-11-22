@@ -1,0 +1,12 @@
+{
+  "name": "munora",
+  "version": "1.0.0",
+  "description": "A toy programming language written in JavaScript",
+  "scripts": {
+    "start": "node run.js",
+    "ast": "node run.js main.m --ast",
+    "js": "node run.js main.m --js"
+  },
+  "author": "Mohon Munna",
+  "license": "MIT"
+}

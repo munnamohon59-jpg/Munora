@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Munora (Chrome)", "type": "chrome", "request": "launch", "file": "${workspaceFolder}/index.html" },
+    { "name": "Munora (Edge)", "type": "msedge", "request": "launch", "file": "${workspaceFolder}/index.html" }
+  ]
+}
